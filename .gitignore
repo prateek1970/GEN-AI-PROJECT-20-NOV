@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# ChromaDB & Persistent Storage
+backend/storage/
+storage/
+*.parquet
+*.sqlite3
+*.bin
+
+# Environment & API Keys
+.env
+.env.*
+!.env.example
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
